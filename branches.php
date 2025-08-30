@@ -277,40 +277,6 @@ header a:hover {
   }
 }
 
-    </style>
-    
-    
-</head>
-<body>
-    <header>
-        <div class="logo">Employee MS</div>
-        <div class="welcome ">Welcome,dear customer!</div>
-        <a href="logout.php">Logout</a>
-    </header>
-
-    <div class="container">
-      <?php 
-      @include("sidebar.php");
-      
-      ?>
-        <!-- Main Content -->
-        <main class="main">
-            <div class="top-bar">
-                <h2>Manage Employees</h2>
-                <div class="top-controls">
-                    <input type="search" placeholder="Search By Employee ID" />
-                    <button class="add-btn"> <a href="add-emp.php">Add New order</a></button>
-                </div>
-            </div>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Our Branches</title>
-<style>
   /* Reset & base */
   * {
     margin: 0;
@@ -411,7 +377,42 @@ header a:hover {
       height: 140px;
     }
   }
-</style>
+
+
+    </style>
+    
+    
+</head>
+<body>
+    <header>
+        <div class="logo">Employee MS</div>
+        <div class="welcome ">Welcome,dear customer!</div>
+        <a href="logout.php">Logout</a>
+    </header>
+
+    <div class="container">
+      <?php 
+      @include("sidebar.php");
+      
+      ?>
+        <!-- Main Content -->
+        <main class="main">
+            <div class="top-bar">
+                <h2>Manage Employees</h2>
+                <div class="top-controls">
+                    <input type="search" placeholder="Search By Employee ID" />
+                    <button class="add-btn"> <a href="add-emp.php">Add New order</a></button>
+                </div>
+            </div>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Our Branches</title>
+
 </head>
 <body>
 
