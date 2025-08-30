@@ -284,7 +284,7 @@ header a:hover {
 <body>
     <header>
         <div class="logo">Employee MS</div>
-        <div class="welcome ">Welcome,dear customer!></div>
+        <div class="welcome ">Welcome,dear customer!</div>
         <a href="logout.php">Logout</a>
     </header>
 
