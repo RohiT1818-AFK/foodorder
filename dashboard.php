@@ -299,7 +299,7 @@ header a:hover {
                 <h2>Manage Employees</h2>
                 <div class="top-controls">
                     <input type="search" placeholder="Search By Employee ID" />
-                    <button class="add-btn"> <a href="add-emp.php">Add New order</a></button>
+                    <button class="add-btn"> <a href="add-order.php">Add New order</a></button>
                 </div>
             </div>
 
