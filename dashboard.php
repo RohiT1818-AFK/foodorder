@@ -63,9 +63,9 @@
             <tr>
                 <td><?php echo $row['order-id'];?></td>
                 <td><?php echo $row['user'];?></td>
-                <td><?php echo $row['order'];?></td>
-                <td><?php echo $row['department'];?></td>
-                <td><img src="<?php echo $row['profile'];?>" width="100px"></td>
+                <td><?php echo $row['order date'];?></td>
+                <td><?php echo $row['location'];?></td>
+                
                 
                 <td>
                     <a href="edit.php?id=<?php echo $row['id'];?>" class="edit">Edit</a>
